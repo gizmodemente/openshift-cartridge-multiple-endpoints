@@ -41,7 +41,7 @@ Subscribes:
     Type: "ENV:NET_TCP:nosqldb:connection-info"
     Required : false
 Endpoints:
-  - Private-IP-Name:   IP
+ - Private-IP-Name:   IP
     Private-Port-Name: PORT
     Private-Port:      8080
     Public-Port-Name:  PROXY_PORT
@@ -49,7 +49,7 @@ Endpoints:
       - Frontend:      ""
         Backend:       ""
         Options:       { websocket: true }
-  - Private-IP-Name:   IP
+ - Private-IP-Name:   IP
     Private-Port-Name: PORT2
     Private-Port:      8090
     Public-Port-Name:  PROXY_PORT2
