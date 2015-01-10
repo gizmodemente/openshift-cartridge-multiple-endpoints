@@ -43,16 +43,16 @@ Subscribes:
 Endpoints:
  - Private-IP-Name:   IP
    Private-Port-Name: PORT
-   Private-Port:      8080
-   Public-Port-Name:  PROXY_PORT
+   Private-Port: 8080
+   Public-Port-Name: PROXY_PORT
    Mappings:
-      - Frontend:      ""
-        Backend:       ""
-        Options:       { websocket: true }
- - Private-IP-Name:   IP
+      - Frontend: ""
+        Backend: ""
+        Options: { websocket: true }
+ - Private-IP-Name: IP
    Private-Port-Name: PORT2
-   Private-Port:      8090
-   Public-Port-Name:  PROXY_PORT2
+   Private-Port: 8090
+   Public-Port-Name: PROXY_PORT2
    Mappings:
       - Frontend:      "/endpoint2"
         Backend:       ""
