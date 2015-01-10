@@ -57,4 +57,4 @@ Endpoints:
       - Frontend:      "/endpoint2"
         Backend:       ""
         Options:       { }
-  Source-url: https://github.com/gizmodemente/openshift-cartridge-multiple-endpoints.git
+  Source-Url: https://github.com/gizmodemente/openshift-cartridge-multiple-endpoints.git
